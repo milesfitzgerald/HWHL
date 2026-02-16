@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>NSHealthShareUsageDescription</key>
-	<string>HWHL needs access to your menstrual cycle data to provide cycle predictions, PMS alerts, and personalized wellness tips.</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>HWHL can save your manually entered cycle data to Apple Health.</string>
-</dict>
+<dict/>
 </plist>

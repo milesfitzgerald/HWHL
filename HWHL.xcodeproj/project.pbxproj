@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10001 /* HWHLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001; };
-		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002; };
-		A10003 /* CycleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003; };
-		A10004 /* CyclePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004; };
-		A10005 /* TipEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005; };
-		A10006 /* CyclePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006; };
-		A10007 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
-		A10008 /* PredictionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
-		A10009 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
-		A10010 /* TipsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
-		A10011 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
-		A10012 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
-		A10013 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013; };
-		A10014 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
-		A10015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015; };
-		A10016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10016; };
+		A10001 /* HWHLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001 /* HWHLApp.swift */; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002 /* ContentView.swift */; };
+		A10003 /* CycleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003 /* CycleRecord.swift */; };
+		A10004 /* CyclePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004 /* CyclePhase.swift */; };
+		A10005 /* TipEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005 /* TipEntry.swift */; };
+		A10006 /* CyclePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006 /* CyclePrediction.swift */; };
+		A10007 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007 /* HealthKitService.swift */; };
+		A10008 /* PredictionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008 /* PredictionEngine.swift */; };
+		A10009 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009 /* NotificationService.swift */; };
+		A10010 /* TipsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010 /* TipsService.swift */; };
+		A10011 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011 /* DashboardViewModel.swift */; };
+		A10012 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012 /* DashboardView.swift */; };
+		A10013 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013 /* CalendarView.swift */; };
+		A10014 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014 /* TipsView.swift */; };
+		A10015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015 /* SettingsView.swift */; };
+		A10016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10016 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -395,11 +395,13 @@
 				CODE_SIGN_ENTITLEMENTS = HWHL/HWHL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YFJ4B8YTR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HWHL/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HWHL;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "HWHL needs access to your menstrual cycle data to provide cycle predictions, PMS alerts, and personalized wellness tips.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HWHL can save your manually entered cycle data to Apple Health.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,11 +430,13 @@
 				CODE_SIGN_ENTITLEMENTS = HWHL/HWHL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YFJ4B8YTR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HWHL/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HWHL;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "HWHL needs access to your menstrual cycle data to provide cycle predictions, PMS alerts, and personalized wellness tips.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HWHL can save your manually entered cycle data to Apple Health.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,7 +479,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = E10000 /* Project object */;
 }
